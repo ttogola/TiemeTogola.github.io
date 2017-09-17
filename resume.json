@@ -1,0 +1,131 @@
+{
+  "basics": {
+    "name": "Tieme Togola",
+    "label": "Software Developer",
+    "email": "ttogola@uwaterloo.ca",
+    "phone": "438-406-0830",
+    "website": "ghpages",
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "TiemeTogola",
+        "url": "https://github.com/TiemeTogola"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "NerdWallet",
+      "position": "Data Engineer",
+      "website": "https://www.nerdwallet.com",
+      "startDate": "May 2017",
+      "endDate": "Present",
+      "finalDate": "December 2017",
+      "summary": "As a member of the Data Warehouse team, I work on the data pipeline to extract, transform and load data such that it is conveniently accessible to other backend systems and to our data analysts/scientists.",
+      "highlights": [
+        "Enable ETL to be computed more efficiently using Spark",
+        "Dimensional modeling",
+        "Building a Data Lake to operate alongside Data Warehouse",
+        "working with Protocol Buffers, Parquet (contributions to custom Parquet writer)"
+      ]
+    },
+    {
+      "company": "Symantec",
+      "position": "Cloud Developer",
+      "website": "https://www.symantec.com",
+      "startDate": "September 2016",
+      "endDate": "December 2016",
+      "summary": "fullstack",
+      "highlights": [
+        "Delivered high quality code across the full stack through pair programming and test driven development",
+        "Partnered with a designer to implement a prototype of the new customer cloud security portal",
+        ""
+      ]
+    },
+    {
+      "company": "Public Safety Canada",
+      "position": "Software Developer",
+      "website": "https://www.publicsafety.gc.ca",
+      "startDate": "January 2016",
+      "endDate": "April 2016",
+      "summary": "tools and backend",
+      "highlights": [
+        "Reduced coupling by refactoring parts of a monolithic .NET application into RESTful microservices",
+        "Improved critical infrastructure visibility by developing a variety of monitoring tools in Python",
+        ""
+      ]
+    },
+    {
+      "company": "Evertz Microsystems",
+      "position": "Java Developer",
+      "website": "http://www.evertz.com",
+      "startDate": "May 2015",
+      "endDate": "August 2015",
+      "summary": "app dev",
+      "highlights": [
+        "vistalink SNMP monitoring and control system",
+        "",
+        ""
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Waterloo",
+      "area": "Bachelor of Computer Science",
+      "studyType": "Honours, Co-operative Program",
+      "startDate": "September 2014",
+      "endDate": "Present",
+      "finalDate": "June 2018",
+      "courses": [
+        "Designing Functional Programs",
+        "Operating Systems",
+        "Applied Cryptography",
+        "Introduction to Database Management",
+        "Object-Oriented Software Development"
+      ],
+      "favCourses": [
+        "Introduction to Machine Learning",
+        "Introduction to Artificial Intelligence",
+        "Concurrent and Parallel Programming",
+        "Computer Networks",
+        "Applied Cryptography",
+        "Computer Security and Privacy"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Technologies",
+      "keywords": [
+        "Spark",
+        "Presto",
+        "Hive",
+        "PostgreSQL",
+        "Airflow",
+        "AWS",
+        "Git"
+      ],
+      "inProgess": [
+        "Kafka",
+        "Rails"
+      ]
+    },
+    {
+      "name": "Languages",
+      "keywords": [
+        "Python",
+        "SQL",
+        "Java",
+        "JavaScript",
+        "C++",
+        "Bash"
+      ],
+      "inProgess": [
+        "Ruby",
+        "Scala",
+        "Go"
+      ]
+    }
+  ]
+}
