@@ -16,10 +16,9 @@
       "endDate": "Present",
       "finalDate": "December 2017",
       "highlights": [
-        "Improve data pipeline performance using Spark",
-        "Dimensional modeling",
-        "Building a Data Lake to operate alongside Data Warehouse",
-        "working with Protocol Buffers, Parquet (contributions to custom Parquet writer)"
+        "Building a data lake with the Data Warehouse team to scale NerdWallet's data infrastructure",
+        "Contributing to the development of a custom Protobuf to Parquet file writer",
+        "Improving data pipeline performance using Spark"
       ]
     },
     {
@@ -101,9 +100,9 @@
     {
       "name": "Languages",
       "keywords": [
+        "Java",
         "Python",
         "SQL",
-        "Java",
         "JavaScript",
         "C++",
         "Bash"
