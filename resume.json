@@ -58,17 +58,18 @@
   "education": [
     {
       "institution": "University of Waterloo",
-      "area": "Bachelor of Computer Science, Honours, Co-operative Program",
+      "area": "Honours Bachelor of Computer Science",
+      "studyType": "Co-operative Program",
+      "website": "https://uwaterloo.ca",
       "startDate": "September 2014",
-      "link": "https://uwaterloo.ca",
       "endDate": "Present",
       "finalDate": "June 2018",
       "courses": [
-        "Designing Functional Programs",
         "Operating Systems",
         "Applied Cryptography",
-        "Introduction to Database Management",
-        "Object-Oriented Software Development"
+        "Designing Functional Programs",
+        "Object-Oriented Software Development",
+        "Introduction to Database Management"
       ],
       "favCourses": [
         "Introduction to Machine Learning",
