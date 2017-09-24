@@ -3,8 +3,7 @@
     "name": "Tieme Togola",
     "label": "Software Developer",
     "email": "ttogola@uwaterloo.ca",
-    "phone": "438-406-0830",
-    "website": "https://tiemetogola.github.io/",
+    "website": "http://tiemetogola.com",
     "github": "https://github.com/TiemeTogola"
   },
   "work": [
@@ -29,7 +28,7 @@
       "endDate": "December 2016",
       "highlights": [
         "Delivered high quality code across the full stack through pair programming and test driven development",
-        "Partnered with a designer to build a prototype of the new customer cloud security portal"
+        "Partnered with a designer to build a prototype for the new enterprise customer cloud security portal"
       ]
     },
     {
