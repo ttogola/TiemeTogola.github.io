@@ -1,1 +1,1 @@
-Resume page generated using [jsonresume](https://github.com/jsonresume) with [this theme](https://github.com/TiemeTogola/jsonresume-theme-flat)
+Resume page generated with [jsonresume](https://github.com/jsonresume) using [this theme](https://github.com/TiemeTogola/jsonresume-theme-flat)

@@ -6,6 +6,40 @@
     "website": "http://tiemetogola.com",
     "github": "https://github.com/TiemeTogola"
   },
+  "skills": [
+    {
+      "name": "Technologies",
+      "keywords": [
+        "Spark",
+        "Presto",
+        "Hive",
+        "PostgreSQL",
+        "Airflow",
+        "AWS",
+        "Git"
+      ],
+      "inProgess": [
+        "Kafka",
+        "Rails"
+      ]
+    },
+    {
+      "name": "Languages",
+      "keywords": [
+        "Java",
+        "Python",
+        "SQL",
+        "JavaScript",
+        "C++",
+        "Bash"
+      ],
+      "inProgess": [
+        "Ruby",
+        "Scala",
+        "Go"
+      ]
+    }
+  ],
   "work": [
     {
       "company": "NerdWallet",
@@ -64,11 +98,11 @@
       "endDate": "Present",
       "finalDate": "June 2018",
       "courses": [
-        "Operating Systems",
-        "Applied Cryptography",
         "Designing Functional Programs",
         "Object-Oriented Software Development",
-        "Introduction to Database Management"
+        "Introduction to Database Management",
+        "Applied Cryptography",
+        "Operating Systems"
       ],
       "favCourses": [
         "Introduction to Machine Learning",
@@ -77,40 +111,6 @@
         "Computer Networks",
         "Applied Cryptography",
         "Computer Security and Privacy"
-      ]
-    }
-  ],
-  "skills": [
-    {
-      "name": "Technologies",
-      "keywords": [
-        "Spark",
-        "Presto",
-        "Hive",
-        "PostgreSQL",
-        "Airflow",
-        "AWS",
-        "Git"
-      ],
-      "inProgess": [
-        "Kafka",
-        "Rails"
-      ]
-    },
-    {
-      "name": "Languages",
-      "keywords": [
-        "Java",
-        "Python",
-        "SQL",
-        "JavaScript",
-        "C++",
-        "Bash"
-      ],
-      "inProgess": [
-        "Ruby",
-        "Scala",
-        "Go"
       ]
     }
   ]
