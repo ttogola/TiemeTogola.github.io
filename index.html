@@ -14,6 +14,7 @@
 	/*
 pdf f014
 beaker f0dd
+TODO: fix the responsive
 */
 @import url(
 	https://fonts.googleapis.com/css?family=Lato:400,700
@@ -77,6 +78,9 @@ h4 span:first-child {
 	max-width: 750px;
 	padding: 0 30px;
 }
+.col-sm-push-3 {
+	margin-top: -10px;
+}
 .col-sm-6 {
 	margin-bottom: 10px;
 }
@@ -88,33 +92,28 @@ h4 span:first-child {
 }
 #header {
 	background: #f4f6f6;
-	padding: 50px 0;
+	padding: 40px 10px 30px 30px;
 	margin-bottom: 30px;
 }
 #header h2 {
 	color: #95a5a6;
 	font-size: 24px;
 }
-/* try icon before aligned? */
-#header .phone:after {
-	content: "\f038";
-	font: 16px Octicons;
-	/*margin-right: 6px;*/
+#header .email:before {
+        content: "\f03b";
+        font: 16px Octicons;
+        margin-right: 6px;
 }
-#header .email:after {
-	content: "\f03b";
-	font: 16px Octicons;
-	/*margin-right: 6px;*/
+#header .website:before {
+        content: "\f0c5";
+        font: 16px Octicons;
+        margin-right: 6px;
 }
-#header .website:after {
-	content: "\f0c5";
-	font: 16px Octicons;
-	/*margin-right: 6px;*/
-}
-#header .github:after {
-	content: "\f00a";
-	font: 16px Octicons;
-	/*margin-right: 6px;*/
+#header .github:before {
+        content: "\f00a";
+        font: 16px Octicons;
+        margin-right: 5px;
+        margin-left: -1px;
 }
 #content h3 {
 	color: #f1c40f;
@@ -133,15 +132,20 @@ h4 span:first-child {
 	font-weight: bold;
 	margin-bottom: 8px;
 }
+#skills h4 {
+        display: inline-block;
+}
 #skills .Technologies:before {
         content: "\f033";
 	font: 16px Octicons;
+	margin-top: -2px;
 	margin-right: 6px;
 }
 #skills .Languages:before {
         content: "\f05f";
 	font: 16px Octicons;
 	margin-right: 6px;
+	padding-bottom: 2px;
 }
 #education .area {
 	font-weight: bold;
@@ -230,7 +234,7 @@ h4 span:first-child {
 	<header id="header">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-9 col-sm-push-3">
+				<div class="col-sm-5 col-sm-push-3">
 					<h1>
 						Tieme Togola
 					</h1>
@@ -238,17 +242,17 @@ h4 span:first-child {
 						Software Developer
 					</h2>
 				</div>
-				<div class="col-sm-3">
-                                        <div class="email pull-right">
-                                                <a href="mailto:ttogola@uwaterloo.ca">ttogola@uwaterloo.ca</a>
+                                <div class="col-sm-5 col-sm-push-2">
+                                        <div class="email pull-left">
+                                                <a href="mailto:ttogola@tiemetogola.com">ttogola@tiemetogola.com</a>
                                         </div>
-                                        <div class="website website pull-right">
-                                                <a href="http://tiemetogola.com">http://tiemetogola.com</a>
+                                        <div class="website website pull-left">
+                                                <a href="https://tiemetogola.com">https://tiemetogola.com</a>
                                         </div>
-                                        <div class="github website pull-right">
-                                                <a href="https://github.com/TiemeTogola">https://github.com/TiemeTogola</a>
+                                        <div class="github website pull-left">
+                                                <a href="https://github.com/ttogola">https://github.com/ttogola</a>
                                         </div>
-				</div>
+                                </div>
 			</div>
 		</div>
 	</header>

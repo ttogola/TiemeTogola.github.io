@@ -2,9 +2,9 @@
   "basics": {
     "name": "Tieme Togola",
     "label": "Software Developer",
-    "email": "ttogola@uwaterloo.ca",
-    "website": "http://tiemetogola.com",
-    "github": "https://github.com/TiemeTogola"
+    "email": "ttogola@tiemetogola.com",
+    "website": "https://tiemetogola.com",
+    "github": "https://github.com/ttogola"
   },
   "skills": [
     {
@@ -20,7 +20,7 @@
       ],
       "inProgess": [
         "Kafka",
-        "Rails"
+        "ml"
       ]
     },
     {
@@ -34,9 +34,8 @@
         "Bash"
       ],
       "inProgess": [
-        "Ruby",
-        "Scala",
-        "Go"
+        "Go",
+        "Scala"
       ]
     }
   ],
@@ -104,9 +103,9 @@
         "Applied Cryptography",
         "Operating Systems"
       ],
-      "favCourses": [
+      "advancedTopics": [
         "Introduction to Machine Learning",
-        "Introduction to Artificial Intelligence",
+        "Neural Networks",
         "Concurrent and Parallel Programming",
         "Computer Networks",
         "Applied Cryptography",
