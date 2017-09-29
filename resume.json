@@ -90,23 +90,22 @@
     {
       "institution": "University of Waterloo",
       "area": "Computer Science",
-      "studyType": "Honours Co-op",
+      "tudyType": "Honours Co-op",
       "website": "https://uwaterloo.ca",
       "startDate": "September 2014",
       "endDate": "Present",
       "finalDate": "June 2018",
       "courses": [
-        "Designing Functional Programs",
-        "Object-Oriented Software Development",
-        "Introduction to Database Management",
         "Applied Cryptography",
-        "Operating Systems"
+        "Operating Systems",
+        "Introduction to Database Management",
+        "Designing Functional Programs"
       ],
       "advancedTopics": [
         "Neural Networks",
-        "Introduction to Machine Learning",
+        "Machine Learning",
         "Concurrent and Parallel Programming",
-        "Computer Security and Privacy",
+        "Computer Security",
         "Applied Cryptography",
         "Computer Networks"
       ]
