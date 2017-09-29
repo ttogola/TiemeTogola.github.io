@@ -15,8 +15,7 @@
         "Hive",
         "PostgreSQL",
         "Airflow",
-        "AWS",
-        "Git"
+        "AWS"
       ],
       "inProgess": [
         "Kafka",
@@ -61,7 +60,7 @@
       "endDate": "December 2016",
       "highlights": [
         "Delivered high quality code across the full stack through pair programming and test driven development",
-        "Partnered with a designer to build a prototype for the new enterprise customer cloud security portal"
+        "Partnered with a designer to build a prototype for the new enterprise cloud security portal"
       ]
     },
     {
@@ -90,8 +89,8 @@
   "education": [
     {
       "institution": "University of Waterloo",
-      "area": "Honours Bachelor of Computer Science",
-      "studyType": "Co-operative Program",
+      "area": "Computer Science",
+      "studyType": "Honours Co-op",
       "website": "https://uwaterloo.ca",
       "startDate": "September 2014",
       "endDate": "Present",
@@ -104,12 +103,12 @@
         "Operating Systems"
       ],
       "advancedTopics": [
-        "Introduction to Machine Learning",
         "Neural Networks",
+        "Introduction to Machine Learning",
         "Concurrent and Parallel Programming",
-        "Computer Networks",
+        "Computer Security and Privacy",
         "Applied Cryptography",
-        "Computer Security and Privacy"
+        "Computer Networks"
       ]
     }
   ]
