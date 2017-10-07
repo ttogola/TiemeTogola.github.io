@@ -13,8 +13,7 @@
 	
 	<style type="text/css">
 	/*
-TODO: fix the responsive, personalize colors
-check on mutliple browsers / devices
+TODO: personalize colors
 */
 @import url(
 	https://fonts.googleapis.com/css?family=Lato:400,700
@@ -213,23 +212,28 @@ h4 span:first-child {
 		right: 0;
 	}
 }
+@media (max-width: 1245px) {
+        #header .pdf {
+            display: none;
+        }
+}
 @media (max-width: 768px) {
-	.col-sm-6:last-child {
-		margin-bottom: 0px;
+	.Languages h4 {
+                margin-top: 10px;
 	}
 	#content aside {
 		margin-bottom: 20px;
 		padding-right: 0;
 		text-align: left;
 	}
+	#header a {
+            margin-right: 400px;
+	}
 	#publications .website a:before {
 		content: "View publication";
 	}
 }
 @media (max-width: 480px) {
-	h1 {
-		font-size: 26px;
-	}
 	.date {
 		font-size: 14px;
 		margin-bottom: 5px;
@@ -240,10 +244,6 @@ h4 span:first-child {
 	.strike-through span {
 		display: block;
 	}	
-	#header {
-		margin-bottom: 10px;
-		padding: 40px 0;
-	}
 	#actions {
 		display: none;
 	}
