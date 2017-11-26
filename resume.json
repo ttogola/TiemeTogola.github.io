@@ -4,7 +4,8 @@
     "label": "Software Developer",
     "email": "ttogola@tiemetogola.com",
     "website": "https://tiemetogola.com",
-    "github": "https://github.com/ttogola"
+    "github": "https://github.com/ttogola",
+    "linkedin": "https://linkedin.com/in/ttogola"
   },
   "skills": [
     {
@@ -13,8 +14,8 @@
         "Spark",
         "Presto",
         "Hive",
-        "PostgreSQL",
-        "Airflow",
+        "Protobuf",
+        "Parquet",
         "AWS"
       ],
       "inProgess": [
@@ -44,12 +45,11 @@
       "position": "Data Engineer",
       "website": "https://www.nerdwallet.com",
       "startDate": "May 2017",
-      "endDate": "Present",
-      "finalDate": "December 2017",
+      "endDate": "December 2017",
       "highlights": [
-        "Building a data lake with the Data Warehouse team to scale NerdWallet's data infrastructure",
-        "Contributing to the development of a custom Protobuf to Parquet file writer",
-        "Improving data pipeline performance using Spark"
+        "Influential in the transition to a data lake in order to scale NerdWallet's data warehouse infrastructure",
+        "Contributed to the development of a custom Protobuf to Parquet file writer",
+        "Supported the deployment and monitoring of production systems"
       ]
     },
     {
@@ -90,23 +90,15 @@
     {
       "institution": "University of Waterloo",
       "area": "Computer Science",
-      "tudyType": "Honours Co-op",
       "website": "https://uwaterloo.ca",
       "startDate": "September 2014",
-      "endDate": "Present",
-      "finalDate": "June 2018",
+      "endDate": "June 2018",
       "courses": [
-        "Applied Cryptography",
-        "Operating Systems",
-        "Database Management",
-        "Designing Functional Programs"
-      ],
-      "advancedTopics": [
-        "Neural Networks",
         "Machine Learning",
-        "Concurrent and Parallel Programming",
-        "Computer Security",
         "Applied Cryptography",
+        "Parallel Programming",
+        "Database Implementation",
+        "Computer Security",
         "Computer Networks"
       ]
     }
