@@ -96,10 +96,10 @@
       "courses": [
         "Machine Learning",
         "Applied Cryptography",
-        "Parallel Programming",
-        "Database Implementation",
         "Computer Security",
-        "Computer Networks"
+        "Parallel Programming",
+        "Computer Networks",
+        "Database Implementation"
       ]
     }
   ]
