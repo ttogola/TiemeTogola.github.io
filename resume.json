@@ -95,11 +95,11 @@
       "endDate": "June 2018",
       "courses": [
         "Machine Learning",
-        "Applied Cryptography",
+        "Neural Networks",
         "Computer Security",
-        "Parallel Programming",
+        "Applied Cryptography",
         "Computer Networks",
-        "Database Implementation"
+        "Parallel Programming"
       ]
     }
   ]
