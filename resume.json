@@ -3,9 +3,9 @@
     "name": "Tiémé Togola",
     "label": "Software Developer",
     "email": "ttogola@tiemetogola.com",
-    "website": "https://tiemetogola.com",
-    "github": "https://github.com/ttogola",
-    "linkedin": "https://linkedin.com/in/ttogola"
+    "website": "tiemetogola.com",
+    "github": "github.com/ttogola",
+    "linkedin": "linkedin.com/in/ttogola"
   },
   "skills": [
     {
@@ -35,24 +35,24 @@
     {
       "company": "Fey",
       "position": "Senior Software Engineer",
-      "website": "https://www.feyapp.com",
+      "website": "feyapp.com",
       "startDate": "September 2021",
       "endDate": "April 2023",
       "highlights": [
-        "Delivered key features to launch the Fey app. As part of a small remote team, ownership and shipping fast was highly valued",
-        "Reverse-engineered and built complete integration with the Robinhood API, allowing the company to capitalize on a huge pool of customers",
-        "Fully designed and implemented the backend for the Research part of the app",
-        "Enabled revenue by building user account subscriptions with the Stripe API"
+        "Fully designed and implemented the backend for the Research part of the app, which involved both streaming and batch data",
+        "Reverse-engineered the Robinhood API to integrate trading and real-time syncing. This allowed the company to capitalize on a huge pool of customers",
+        "Enabled revenue by building user account subscriptions with the Stripe API",
+        "Owned large parts of the backend as part of a small remote startup, where shipping fast and being able to pivot is important"
       ]
     },
     {
       "company": "Hopper",
       "position": "Senior Software Engineer - Travel Platform",
-      "website": "https://www.hopper.com",
+      "website": "hopper.com",
       "startDate": "November 2020",
       "endDate": "August 2021",
       "highlights": [
-        "Led the GCP migration of high-traffic distributed systems, such as price forecasting and user tracking, with zero production downtime",
+        "Led the GCP migration of high-traffic big data distributed systems, such as price forecasting and user tracking, with zero production downtime",
         "Slashed payment processing costs by up to 10% via smarter payment routing strategies"
       ]
     },
@@ -72,37 +72,40 @@
     {
       "company": "NerdWallet",
       "position": "Data Engineer Intern",
-      "website": "https://www.nerdwallet.com",
+      "website": "nerdwallet.com",
       "startDate": "May 2017",
       "endDate": "December 2017"
     },
     {
       "company": "Symantec",
       "position": "Software Engineer Intern",
-      "website": "https://www.symantec.com",
+      "website": "symantec.com",
       "startDate": "September 2016",
       "endDate": "December 2016"
     },
     {
       "company": "Public Safety Canada",
       "position": "Software Engineer Intern",
-      "website": "https://www.publicsafety.gc.ca",
+      "website": "publicsafety.gc.ca",
       "startDate": "January 2016",
       "endDate": "April 2016"
     },
     {
       "company": "Evertz Microsystems",
       "position": "Software Engineer Intern",
-      "website": "http://www.evertz.com",
+      "website": "evertz.com",
       "startDate": "May 2015",
-      "endDate": "August 2015"
+      "endDate": "August 2015",
+      "_highlights": [
+        ""
+      ]
     }
   ],
   "education": [
     {
       "institution": "University of Waterloo",
       "area": "Bachelor of Computer Science Co-op, Honours",
-      "website": "https://uwaterloo.ca",
+      "website": "uwaterloo.ca",
       "startDate": "September 2014",
       "endDate": "June 2018"
     }
