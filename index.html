@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
 	
-	<title>Tieme Togola</title>
+	<title>Tiémé Togola</title>
 	
         <link rel="icon" type="image/png" href="favicon.png">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
@@ -13,10 +13,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
 	
 	<style type="text/css">
-	/*
-TODO: personalize colors
-*/
-@import url(
+	@import url(
 	https://fonts.googleapis.com/css?family=Lato:400,700
 );
 body {
@@ -29,7 +26,7 @@ a {
 }
 a:focus,
 a:hover {
-	color: #f1c40f;
+	color: #81beff;
 	text-decoration: none;
 }
 p {
@@ -134,7 +131,7 @@ h4 span:first-child {
         margin-left: 1px;
 }
 #content h3 {
-	color: #f1c40f;
+	color: #81beff;
 	font-size: 26px;
 	margin-top: -4px;
 }
@@ -145,10 +142,12 @@ h4 span:first-child {
 #profiles .network {
 	text-transform: capitalize;
 }
-#work .position,
-#volunteer .position {
+#work .position {
 	font-weight: bold;
 	margin-bottom: 8px;
+}
+#internships .col-sm-12 {
+	margin-top: 15px;
 }
 #skills h4 {
         display: inline-block;
@@ -161,7 +160,7 @@ h4 span:first-child {
         bottom: 1px;
 }
 #skills .Technologies:before {
-        content: "\f033";
+        content: "\f031";
 	font: 16px Octicons;
 	margin-right: 7px;
         position: relative;
@@ -274,7 +273,7 @@ h4 span:first-child {
                                 </div>
 				<div class="col-sm-5 col-sm-push-3">
 					<h1>
-						Tieme Togola
+						Tiémé Togola
 					</h1>
 					<h2>
 						Software Developer
@@ -307,29 +306,29 @@ h4 span:first-child {
 		<div class="col-sm-9">
 			<div class="row">
 			<div class="col-sm-6">
-                                <div class="Technologies">
-					<h4>Technologies</h4>
-				</div>
-				<ul class="keywords">
-					<li>Spark</li>
-					<li>Presto</li>
-					<li>Hive</li>
-					<li>Protobuf</li>
-					<li>Parquet</li>
-					<li>AWS</li>
-				</ul>
-			</div>
-			<div class="col-sm-6">
                                 <div class="Languages">
 					<h4>Languages</h4>
 				</div>
 				<ul class="keywords">
-					<li>Java</li>
+					<li>TypeScript</li>
 					<li>Python</li>
+					<li>Scala</li>
 					<li>SQL</li>
-					<li>JavaScript</li>
-					<li>C++</li>
-					<li>Bash</li>
+					<li>Java</li>
+					<li>Terraform</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+                                <div class="Technologies">
+					<h4>Technologies</h4>
+				</div>
+				<ul class="keywords">
+					<li>Node.js</li>
+					<li>GCP</li>
+					<li>GraphQL</li>
+					<li>Airflow</li>
+					<li>Firebase</li>
+					<li>Spark</li>
 				</ul>
 			</div>
 			</div>
@@ -344,6 +343,70 @@ h4 span:first-child {
 			<div class="row">
 			<div class="col-sm-12">
 				<h4 class="strike-through">
+					<span>Fey</span>
+					<span class="date">
+						September 2021 — April 2023
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://www.feyapp.com">https://www.feyapp.com</a>
+				</div>
+				<div class="position">
+					Senior Software Engineer
+				</div>
+				<ul class="highlights">
+					<li class="bullet">Delivered key features to launch the Fey app. As part of a small remote team, ownership and shipping fast was highly valued</li>
+					<li class="bullet">Reverse-engineered and built complete integration with the Robinhood API, allowing the company to capitalize on a huge pool of customers</li>
+					<li class="bullet">Fully designed and implemented the backend for the Research part of the app</li>
+					<li class="bullet">Enabled revenue by building user account subscriptions with the Stripe API</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Hopper</span>
+					<span class="date">
+						November 2020 — August 2021
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://www.hopper.com">https://www.hopper.com</a>
+				</div>
+				<div class="position">
+					Senior Software Engineer - Travel Platform
+				</div>
+				<ul class="highlights">
+					<li class="bullet">Led the GCP migration of high-traffic distributed systems, such as price forecasting and user tracking, with zero production downtime</li>
+					<li class="bullet">Slashed payment processing costs by up to 10% via smarter payment routing strategies</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Hopper</span>
+					<span class="date">
+						August 2018 — November 2020
+					</span>
+				</h4>
+				<div class="position">
+					Software Engineer - Data Platform
+				</div>
+				<ul class="highlights">
+					<li class="bullet">Democratized ETL contributions across engineering and data science through reusable and performant data processing jobs</li>
+					<li class="bullet">Drastically grew data-driven decision making by integrating realtime user events into Amplitude for self-serve analytics</li>
+					<li class="bullet">Improved data reliability by co-developing a type-safe, idempotent, and scalable tracking events system. Presented demos, documentation, and gathered feedback to increase adoption</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="internships" class="row">
+		<aside class="col-sm-3">
+			<h3>Internships</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
 					<span>NerdWallet</span>
 					<span class="date">
 						May 2017 — December 2017
@@ -353,13 +416,8 @@ h4 span:first-child {
 					<a href="https://www.nerdwallet.com">https://www.nerdwallet.com</a>
 				</div>
 				<div class="position">
-					Data Engineer
+					Data Engineer Intern
 				</div>
-				<ul class="highlights">
-					<li class="bullet">Influential in the transition to a data lake in order to scale NerdWallet&#x27;s data warehouse infrastructure</li>
-					<li class="bullet">Contributed to the development of a custom Protobuf to Parquet file writer</li>
-					<li class="bullet">Supported the deployment and monitoring of production systems</li>
-				</ul>
 			</div>
 			<div class="col-sm-12">
 				<h4 class="strike-through">
@@ -372,12 +430,8 @@ h4 span:first-child {
 					<a href="https://www.symantec.com">https://www.symantec.com</a>
 				</div>
 				<div class="position">
-					Cloud Developer
+					Software Engineer Intern
 				</div>
-				<ul class="highlights">
-					<li class="bullet">Delivered high quality code across the full stack (Java backend and JavaScript frontend) through pair programming and test driven development</li>
-					<li class="bullet">Partnered with a designer to build a prototype for the new enterprise cloud security portal</li>
-				</ul>
 			</div>
 			<div class="col-sm-12">
 				<h4 class="strike-through">
@@ -390,12 +444,8 @@ h4 span:first-child {
 					<a href="https://www.publicsafety.gc.ca">https://www.publicsafety.gc.ca</a>
 				</div>
 				<div class="position">
-					Software Developer
+					Software Engineer Intern
 				</div>
-				<ul class="highlights">
-					<li class="bullet">Improved critical infrastructure visibility by developing a variety of monitoring tools in Python</li>
-					<li class="bullet">Reduced coupling by refactoring parts of a monolithic .NET application into RESTful microservices</li>
-				</ul>
 			</div>
 			<div class="col-sm-12">
 				<h4 class="strike-through">
@@ -408,17 +458,12 @@ h4 span:first-child {
 					<a href="http://www.evertz.com">http://www.evertz.com</a>
 				</div>
 				<div class="position">
-					Java Developer
+					Software Engineer Intern
 				</div>
-				<ul class="highlights">
-					<li class="bullet">Collaborated with hardware engineers to implement new features in an SNMP monitoring and control application</li>
-					<li class="bullet">Conducted network traffic analysis and troubleshooting</li>
-				</ul>
 			</div>
 			</div>
 		</div>
 	</section>
-
 	
 	<section id="education" class="row">
 		<aside class="col-sm-3">
@@ -437,17 +482,8 @@ h4 span:first-child {
 					<a href="https://uwaterloo.ca">https://uwaterloo.ca</a>
 				</div>
 				<div class="area">
-					Computer Science
+					Bachelor of Computer Science Co-op, Honours
 				</div>
-				<h4>Advanced Topics</h4>
-				<ul class="courses">
-					<li>Machine Learning</li>
-					<li>Neural Networks</li>
-					<li>Computer Security</li>
-					<li>Applied Cryptography</li>
-					<li>Computer Networks</li>
-					<li>Parallel Programming</li>
-				</ul>
 			</div>
 			</div>
 		</div>

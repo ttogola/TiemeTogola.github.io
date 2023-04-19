@@ -1,6 +1,6 @@
 {
   "basics": {
-    "name": "Tieme Togola",
+    "name": "Tiémé Togola",
     "label": "Software Developer",
     "email": "ttogola@tiemetogola.com",
     "website": "https://tiemetogola.com",
@@ -9,98 +9,102 @@
   },
   "skills": [
     {
-      "name": "Technologies",
+      "name": "Languages",
       "keywords": [
-        "Spark",
-        "Presto",
-        "Hive",
-        "Protobuf",
-        "Parquet",
-        "AWS"
-      ],
-      "inProgess": [
-        "Kafka",
-        "ml"
+        "TypeScript",
+        "Python",
+        "Scala",
+        "SQL",
+        "Java",
+        "Terraform"
       ]
     },
     {
-      "name": "Languages",
+      "name": "Technologies",
       "keywords": [
-        "Java",
-        "Python",
-        "SQL",
-        "JavaScript",
-        "C++",
-        "Bash"
-      ],
-      "inProgess": [
-        "Go",
-        "Scala"
+        "Node.js",
+        "GCP",
+        "GraphQL",
+        "Airflow",
+        "Firebase",
+        "Spark"
       ]
     }
   ],
   "work": [
     {
+      "company": "Fey",
+      "position": "Senior Software Engineer",
+      "website": "https://www.feyapp.com",
+      "startDate": "September 2021",
+      "endDate": "April 2023",
+      "highlights": [
+        "Delivered key features to launch the Fey app. As part of a small remote team, ownership and shipping fast was highly valued",
+        "Reverse-engineered and built complete integration with the Robinhood API, allowing the company to capitalize on a huge pool of customers",
+        "Fully designed and implemented the backend for the Research part of the app",
+        "Enabled revenue by building user account subscriptions with the Stripe API"
+      ]
+    },
+    {
+      "company": "Hopper",
+      "position": "Senior Software Engineer - Travel Platform",
+      "website": "https://www.hopper.com",
+      "startDate": "November 2020",
+      "endDate": "August 2021",
+      "highlights": [
+        "Led the GCP migration of high-traffic distributed systems, such as price forecasting and user tracking, with zero production downtime",
+        "Slashed payment processing costs by up to 10% via smarter payment routing strategies"
+      ]
+    },
+    {
+      "company": "Hopper",
+      "position": "Software Engineer - Data Platform",
+      "startDate": "August 2018",
+      "endDate": "November 2020",
+      "highlights": [
+        "Democratized ETL contributions across engineering and data science through reusable and performant data processing jobs",
+        "Drastically grew data-driven decision making by integrating realtime user events into Amplitude for self-serve analytics",
+        "Improved data reliability by co-developing a type-safe, idempotent, and scalable tracking events system. Presented demos, documentation, and gathered feedback to increase adoption"
+      ]
+    }
+  ],
+  "internships": [
+    {
       "company": "NerdWallet",
-      "position": "Data Engineer",
+      "position": "Data Engineer Intern",
       "website": "https://www.nerdwallet.com",
       "startDate": "May 2017",
-      "endDate": "December 2017",
-      "highlights": [
-        "Influential in the transition to a data lake in order to scale NerdWallet's data warehouse infrastructure",
-        "Contributed to the development of a custom Protobuf to Parquet file writer",
-        "Supported the deployment and monitoring of production systems"
-      ]
+      "endDate": "December 2017"
     },
     {
       "company": "Symantec",
-      "position": "Cloud Developer",
+      "position": "Software Engineer Intern",
       "website": "https://www.symantec.com",
       "startDate": "September 2016",
-      "endDate": "December 2016",
-      "highlights": [
-        "Delivered high quality code across the full stack (Java backend and JavaScript frontend) through pair programming and test driven development",
-        "Partnered with a designer to build a prototype for the new enterprise cloud security portal"
-      ]
+      "endDate": "December 2016"
     },
     {
       "company": "Public Safety Canada",
-      "position": "Software Developer",
+      "position": "Software Engineer Intern",
       "website": "https://www.publicsafety.gc.ca",
       "startDate": "January 2016",
-      "endDate": "April 2016",
-      "highlights": [
-        "Improved critical infrastructure visibility by developing a variety of monitoring tools in Python",
-        "Reduced coupling by refactoring parts of a monolithic .NET application into RESTful microservices"
-      ]
+      "endDate": "April 2016"
     },
     {
       "company": "Evertz Microsystems",
-      "position": "Java Developer",
+      "position": "Software Engineer Intern",
       "website": "http://www.evertz.com",
       "startDate": "May 2015",
-      "endDate": "August 2015",
-      "highlights": [
-        "Collaborated with hardware engineers to implement new features in an SNMP monitoring and control application",
-        "Conducted network traffic analysis and troubleshooting"
-      ]
+      "endDate": "August 2015"
     }
   ],
   "education": [
     {
       "institution": "University of Waterloo",
-      "area": "Computer Science",
+      "area": "Bachelor of Computer Science Co-op, Honours",
       "website": "https://uwaterloo.ca",
       "startDate": "September 2014",
-      "endDate": "June 2018",
-      "courses": [
-        "Machine Learning",
-        "Neural Networks",
-        "Computer Security",
-        "Applied Cryptography",
-        "Computer Networks",
-        "Parallel Programming"
-      ]
+      "endDate": "June 2018"
     }
   ]
 }
