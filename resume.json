@@ -22,12 +22,12 @@
     {
       "name": "Technologies",
       "keywords": [
-        "Node.js",
         "GCP",
-        "GraphQL",
+        "Kafka",
         "Airflow",
-        "Firebase",
-        "Spark"
+        "Node.js / Deno",
+        "Spark",
+        "GraphQL"
       ]
     }
   ],
@@ -42,7 +42,7 @@
         "Fully designed and implemented the backend for the Research part of the app, which involved both streaming and batch data",
         "Reverse-engineered the Robinhood API to integrate trading and real-time syncing. This unlocked a huge pool of customers",
         "Enabled revenue by building user account subscriptions with the Stripe API",
-        "Owned large parts of the backend as part of a small remote startup, where shipping fast and being able to pivot is important"
+        "Owned large parts of the app as part of a small remote startup, where shipping fast and being able to pivot is important"
       ]
     },
     {
@@ -62,7 +62,7 @@
       "startDate": "August 2018",
       "endDate": "November 2020",
       "highlights": [
-        "Democratized ETL contributions across engineering and data science through reusable and performant data processing jobs",
+        "Democratized ETL across engineering and data science through reusable and performant data processing jobs (Spark, Bigtable, BigQuery)",
         "Drastically grew data-driven decision making by integrating realtime user events into Amplitude for self-serve analytics",
         "Improved data reliability by co-developing a type-safe, idempotent, and scalable tracking events system. Presented demos, documentation, and gathered feedback to increase adoption"
       ]
@@ -74,21 +74,30 @@
       "position": "Data Engineer Intern",
       "website": "nerdwallet.com",
       "startDate": "May 2017",
-      "endDate": "December 2017"
+      "endDate": "December 2017",
+      "_highlights": [
+        "Contributed to scaling NerdWallet's data platform by transitioning to a data lake architecture"
+      ]
     },
     {
       "company": "Symantec",
       "position": "Software Engineer Intern",
       "website": "symantec.com",
       "startDate": "September 2016",
-      "endDate": "December 2016"
+      "endDate": "December 2016",
+      "_highlights": [
+        "Pair programmed across the full stack to build a prototype of the new enterprise cloud security application"
+      ]
     },
     {
       "company": "Public Safety Canada",
       "position": "Software Engineer Intern",
       "website": "publicsafety.gc.ca",
       "startDate": "January 2016",
-      "endDate": "April 2016"
+      "endDate": "April 2016",
+      "_highlights": [
+        "Improved critical infrastructure reliability by developing various observability tools. Required a high-level security clearance"
+      ]
     },
     {
       "company": "Evertz Microsystems",
@@ -97,7 +106,7 @@
       "startDate": "May 2015",
       "endDate": "August 2015",
       "_highlights": [
-        ""
+        "Collaborated with hardware engineers to implement features for the company's flagship network device application"
       ]
     }
   ],
